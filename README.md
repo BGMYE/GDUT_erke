@@ -3,7 +3,7 @@
 
 # 原理
 二维码本质是网址，观察erke的链接可以发现
-- [ ] 起始界面：http://erke.gdut.edu.cn/public/index.php/mobile/activity-detail?id=6558
+- [x] 起始界面：http://erke.gdut.edu.cn/public/index.php/mobile/activity-detail?id=6558
 - [ ] 签到界面：http://erke.gdut.edu.cn/public/index.php/mobile/activity-sign-result?id=6558&type=in&ts=1786329300000
 - [ ] 签退界面：http://erke.gdut.edu.cn/public/index.php/mobile/activity-sign-result?id=6558&type=out&ts=1786329300000
 - 其中in和out分别代表签到和签退，ts是识别码，其实还有一种形式是将ts换成token
