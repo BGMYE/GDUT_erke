@@ -1,7 +1,6 @@
 import random
 import qrcode
 
-
 def QR_CODE(URL, name):
     qr = qrcode.QRCode(
         version=1,
