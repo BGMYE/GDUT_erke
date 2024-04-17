@@ -1,6 +1,7 @@
 # 声明
 只是发现了一个小bug（但是学校好像并没有想要修复的样子） 要成功签到和签退的前提是成功报名该活动
 
+已经打包成了exe文件，可在windows下运行，在目录处生成二维码，源文件是Qrcode.py
 # 原理
 二维码本质是网址，观察erke的链接可以发现
 - [x] 起始界面：http://erke.gdut.edu.cn/public/index.php/mobile/activity-detail?id=6558
@@ -14,4 +15,4 @@ token生成的链接只能被唯一识别并在服务端产生一对一标记
 ## 多次使用
 利用ts来实现多人扫码
 
-已经打包成了exe文件，可在windows下运行，在目录处生成二维码，源文件是Qrcode.py
+
